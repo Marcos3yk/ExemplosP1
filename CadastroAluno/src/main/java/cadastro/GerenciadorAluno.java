@@ -9,6 +9,10 @@ public class GerenciadorAluno{
 	public void salvar(Aluno aluno) {
 		alunos.add(aluno);
 	}
+	
+	public void excluir (int posicao){
+		alunos.remove(posicao);
+	}
 
 	public List<Aluno> getAlunos() {
 		return alunos;
