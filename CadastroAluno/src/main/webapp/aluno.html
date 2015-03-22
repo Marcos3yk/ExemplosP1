@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Cadastro de Alunos</title>
+</head>
+<body>
+	<form action="AlunoController" method="POST">
+		
+		<label>
+		Nome:
+		</label>
+		<input type="text" name="nome">
+		
+		<label>
+		CPF:
+		</label>
+		<input type="text" name="cpf">
+		
+		<label>
+		RG:
+		</label>
+		<input type="text" name="rg">
+		
+		<label>
+		Estado:
+		</label>
+		<select name="estado">
+			<option value="Mato Grosso do Sul">MS</option>
+			<option value="Distrito Federal">DF</option>
+			<option value="Sao Paulo">SP</option>
+			<option value="Rio de Janeiro">RJ</option>
+			<option value="Pernambuco">PE</option>
+			<option value="Amazonas">AM</option>
+		</select>
+		 Sexo:<input name="sexo" type="radio" value="M">Masculino
+		<input name="sexo" type="radio" value="F">Feminino
+		
+		
+		
+		<input type="submit" value="Salvar">
+</form>
+</body>
+</html>
